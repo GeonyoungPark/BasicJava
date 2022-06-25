@@ -1,10 +1,12 @@
 package chapter01;
 
+import java.util.Scanner;
+
 public class Hello {
 	
 	public static void main(String[] args) {
-		System.out.println("Hello Java");
-
+	Scanner scanner = new Scanner(System.in);
+	int a = scanner.nextInt();
 	}
 }
 //public static void main(String[] 무조건 똑같이 써야함..
